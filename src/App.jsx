@@ -14,7 +14,7 @@ const App = () => {
     },
     {
       id: 2,
-      title: 'Book a Visit',
+      title: 'Book a Visite',
       image: './assets/react.svg',
       icon: <Calendar size={24} />,
     }
