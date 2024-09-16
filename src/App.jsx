@@ -17,6 +17,18 @@ export const App = () => {
   const slides = [
     { title: 'Lujo y Placer', image: '/placeholder.svg?height=400&width=800' },
     { title: 'Confort y Elegancia', image: '/placeholder.svg?height=400&width=800' },
+    {
+      id: 1,
+      title: 'Discover Samantha',
+      image: './assets/react.svg',
+      icon: <Bed size={24} />,
+    },
+    {
+      id: 2,
+      title: 'Book a Visite',
+      image: './assets/react.svg',
+      icon: <Calendar size={24} />,
+    }
   ]
 
   const nextSlide = () => {
