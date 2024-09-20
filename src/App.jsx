@@ -12,6 +12,8 @@ import {
   Wifi 
 } from 'lucide-react'
 
+import SecondPart from './SecondPart'
+
 export const App = () => {
   const [currentSlide, setCurrentSlide] = useState(0)
   const slides = [
@@ -60,7 +62,7 @@ export const App = () => {
           <a href="#" className="text-gray-600 hover:text-gray-900">Experiencias</a>
           <a href="#" className="text-gray-600 hover:text-gray-900">Promociones</a>
           <a href="#" className="text-gray-600 hover:text-gray-900">Contáctenos</a>
-        </div>
+        </div> 
       </nav>
 
       <div className="relative h-96 mb-8">
@@ -109,6 +111,8 @@ export const App = () => {
           ))}
         </div>
       </div>
+      
+      <SecondPart />
     </div>
   )
 }
