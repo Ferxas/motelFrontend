@@ -1,3 +1,5 @@
+import hojitaFondo from './assets/images/hojitaFondo.png';
+
 const SecondPart = () => {
   return (
     <div className='max-x-2xl mx-auto p-4 bg-gray-100'>
@@ -37,7 +39,24 @@ const SecondPart = () => {
                     <p>En todas las habitaciones</p>
                 </div>
             </div>
+            <div className='w-[31%] bg-white rounded-lg overflow-hidden shadow-md'>
+                <img src="" alt="Gratis" className='w-full h-24 object-cover' />
+                <div className='p-2'>
+                    <h3 className='font-semibold text-sm'>Gratis</h3>
+                    <p>Desayunos en tus amanecidas</p>
+                </div>
+            </div>
+            <div className='w-[31%] bg-white rounded-lg overflow-hidden shadow-md'>
+                <img src="" alt="10%" className='w-full h-24 object-cover' />
+                <div className='p-2'>
+                    <h3 className='font-semibold text-sm'>10%</h3>
+                    <p>En tu segunda decoración</p>
+                </div>
+            </div>
 
+        </div>
+        <div className='bg-black bg-opacity-50 rounded-lg p-4 mt-4' style={{backgroundImage: hojitaFondo}}>
+            <h2 className='text 2xl font-bold mb-4 text-white'>Servicios</h2>
         </div>
     </div>
   )
